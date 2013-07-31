@@ -1,0 +1,1012 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wordpress Instagrabber v2.1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-12-13 06:32:22+0000\n"
+"Last-Translator: johan <johanahlback@live.se>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Swedish\n"
+"X-Poedit-Country: SWEDEN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: includes/admin_pages.class.php:18
+#@ instagrabber
+msgid "New Stream"
+msgstr "Ny Ström"
+
+#: includes/admin_pages.class.php:20
+#@ instagrabber
+msgid "Instagrabber settings"
+msgstr "Instagrabber inställningar"
+
+#: includes/admin_pages.class.php:63
+#@ instagrabber
+msgid "Instagrabber Streams"
+msgstr "Insttagrabber Strömmar"
+
+#: includes/admin_pages.class.php:82
+#@ instagrabber
+msgid "Are you sure you want to delete this stream?"
+msgstr "Är du säker på att du vill ta bort den här strömmen?"
+
+#: includes/admin_pages.class.php:105
+#: includes/admin_pages.class.php:123
+#@ instagrabber
+msgid "You must Authorize this stream"
+msgstr "Du måste auktorisera den här strömmen"
+
+#: includes/admin_pages.class.php:106
+#: includes/admin_pages.class.php:149
+#@ instagrabber
+msgid "Authorization"
+msgstr "Auktorisera"
+
+#: includes/admin_pages.class.php:656
+#: includes/utils.php:137
+#: includes/utils.php:164
+#: includes/utils.php:186
+#@ instagrabber
+msgid "None"
+msgstr "Ingen"
+
+#: includes/admin_pages.class.php:369
+#@ instagrabber
+msgid "Instagrabber Add Stream"
+msgstr "Instagrabber Lägg till Ström"
+
+#: includes/admin_pages.class.php:376
+#@ instagrabber
+msgid "You must configure this plugin. Go to settings page"
+msgstr "Du måste konfigurera Instagrabber. Gå till Inställnings sidan"
+
+#: includes/admin_pages.class.php:448
+#@ instagrabber
+msgid "Name"
+msgstr "Namn"
+
+#: includes/admin_pages.class.php:457
+#@ instagrabber
+msgid "Placeholder title for post"
+msgstr "Titel platshållare för post"
+
+#: includes/admin_pages.class.php:461
+#: includes/admin_pages.class.php:471
+#@ instagrabber
+msgid "You can also use these tags as placeholders"
+msgstr "Du kan även använda dessa taggar som platshållare"
+
+#: includes/admin_pages.class.php:492
+#: includes/admin_pages.class.php:501
+#@ instagrabber
+msgid "Tag"
+msgstr "Tagg"
+
+#: includes/admin_pages.class.php:501
+#@ instagrabber
+msgid "Get images by tag. Works with user streams too"
+msgstr "Hämta bilder med tagg, Fungerar även med Användare"
+
+#: includes/admin_pages.class.php:519
+#@ instagrabber
+msgid "Auto create post"
+msgstr "Autoskapa post"
+
+#: includes/admin_pages.class.php:557
+#: includes/list_streams.class.php:163
+#@ instagrabber
+msgid "Post status"
+msgstr "Poststatus"
+
+#: includes/admin_pages.class.php:561
+#@ instagrabber
+msgid "Draft"
+msgstr "Utkast"
+
+#: includes/admin_pages.class.php:562
+#@ instagrabber
+msgid "Publish"
+msgstr "Publicerad"
+
+#: includes/admin_pages.class.php:598
+#@ instagrabber
+msgid "Taxonomy"
+msgstr "Taxonomi"
+
+#: includes/admin_pages.class.php:607
+#@ instagrabber
+msgid "Term"
+msgstr "Term"
+
+#: includes/admin_pages.class.php:616
+#@ instagrabber
+msgid "Taxonomy for tags"
+msgstr "Taxonomi för taggar"
+
+#: includes/admin_pages.class.php:625
+#@ instagrabber
+msgid "Auto set tag"
+msgstr "Autoskapa taggar"
+
+#: includes/admin_pages.class.php:625
+#@ instagrabber
+msgid "Uses the tags from instagram"
+msgstr "Använder taggar från Instagram"
+
+#: includes/admin_pages.class.php:480
+#: includes/admin_pages.class.php:628
+#: includes/admin_pages.class.php:825
+#: includes/admin_pages.class.php:850
+#: includes/list_stream.class.php:160
+#: includes/list_streams.class.php:128
+#: includes/list_streams.class.php:135
+#@ instagrabber
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/admin_pages.class.php:482
+#: includes/admin_pages.class.php:630
+#: includes/admin_pages.class.php:824
+#: includes/admin_pages.class.php:849
+#: includes/list_stream.class.php:160
+#: includes/list_streams.class.php:126
+#: includes/list_streams.class.php:133
+#@ instagrabber
+msgid "No"
+msgstr "Nej"
+
+#: includes/admin_pages.class.php:636
+#@ instagrabber
+msgid "Attachment type"
+msgstr "Infoga bilaga i"
+
+#: includes/admin_pages.class.php:636
+#@ instagrabber
+msgid "How to attach the image to the post"
+msgstr "Hur bilden ska bifogas"
+
+#: includes/admin_pages.class.php:640
+#@ instagrabber
+msgid "Content"
+msgstr "Innehåll"
+
+#: includes/admin_pages.class.php:641
+#@ instagrabber
+msgid "Featured"
+msgstr "Utvald bild"
+
+#: includes/admin_pages.class.php:642
+#@ instagrabber
+msgid "Both"
+msgstr "Båda"
+
+#: includes/admin_pages.class.php:722
+#: includes/admin_pages.class.php:856
+#@ instagrabber
+msgid "Save"
+msgstr "Spara"
+
+#: includes/admin_pages.class.php:744
+#@ instagrabber
+msgid "Instagrabber Settings"
+msgstr "Instagrabber Inställningar"
+
+#: includes/admin_pages.class.php:756
+#@ instagrabber
+msgid "Instagram configuration"
+msgstr "Instagram konfiguration"
+
+#: includes/admin_pages.class.php:229
+#@ instagrabber
+msgid "Use this URL as Callback/Redirect URL, when registering Instagram application"
+msgstr "Använd denna URL som Callback/Redirect URL, När du registrerar en Instagram Applikation"
+
+#: includes/admin_pages.class.php:779
+#@ instagrabber
+msgid "Client ID"
+msgstr "Client ID"
+
+#: includes/admin_pages.class.php:787
+#@ instagrabber
+msgid "Client Secret"
+msgstr "Client Secret"
+
+#: includes/admin_pages.class.php:796
+#@ instagrabber
+msgid "Auto get photos"
+msgstr "Hämta bilder automatiskt"
+
+#: includes/admin_pages.class.php:796
+#@ instagrabber
+msgid "And publish depending on stream setting"
+msgstr "Och publicera enligt Ström inställning"
+
+#: includes/admin_pages.class.php:800
+#@ instagrabber
+msgid "never"
+msgstr "Aldrig"
+
+#: includes/admin_pages.class.php:801
+#@ instagrabber
+msgid "every minute"
+msgstr "Varje minut"
+
+#: includes/admin_pages.class.php:802
+#@ instagrabber
+msgid "every 5 minutes"
+msgstr "Var 5:e minut"
+
+#: includes/admin_pages.class.php:803
+#@ instagrabber
+msgid "every 10 minutes"
+msgstr "Var 10:e"
+
+#: includes/admin_pages.class.php:804
+#@ instagrabber
+msgid "every 20 minutes"
+msgstr "var 20:e minut"
+
+#: includes/admin_pages.class.php:805
+#@ instagrabber
+msgid "every 30 minutes"
+msgstr "Var 30:e minut"
+
+#: includes/admin_pages.class.php:806
+#@ instagrabber
+msgid "hourly"
+msgstr "Timmvis"
+
+#: includes/admin_pages.class.php:807
+#@ instagrabber
+msgid "twice a day"
+msgstr "Två gånger dagligen"
+
+#: includes/admin_pages.class.php:808
+#@ instagrabber
+msgid "daily"
+msgstr "Dagligen"
+
+#: includes/admin_pages.class.php:809
+#@ instagrabber
+msgid "weekly"
+msgstr "Veckovis"
+
+#: includes/admin_pages.class.php:810
+#@ instagrabber
+msgid "monthly"
+msgstr "Månadsvis"
+
+#: includes/admin_pages.class.php:860
+#@ instagrabber
+msgid "If you want to use crontab for this plugin you can use this url"
+msgstr "Om du vill använda crontab kan du använda den här URLen"
+
+#: includes/admin_pages.class.php:860
+#@ instagrabber
+msgid "Remember to set Auto get photos to never first!"
+msgstr "Kom ihåg att sätta \\\"Hämta bilder automatiskt\\\" på Aldrig först!"
+
+#: instagrabber.php:404
+#@ instagrabber
+msgid "Once Every 5 Minutes"
+msgstr "Var femte minut"
+
+#: instagrabber.php:410
+#@ instagrabber
+msgid "Once Every 10 Minutes"
+msgstr "Var tionde minut"
+
+#: instagrabber.php:416
+#@ instagrabber
+msgid "Once Every 20 Minutes"
+msgstr "Var 20:e minut"
+
+#: instagrabber.php:422
+#@ instagrabber
+msgid "Once Every 30 Minutes"
+msgstr "Var 30:e minut"
+
+#: instagrabber.php:430
+#@ instagrabber
+msgid "Once Every 7 Days"
+msgstr "Var sjunde dag"
+
+#: instagrabber.php:436
+#@ instagrabber
+msgid "Once Every 30 Days"
+msgstr "Var 30:e dag"
+
+#: includes/list_stream.class.php:179
+#@ instagrabber
+msgid "id"
+msgstr "id"
+
+#: includes/list_stream.class.php:181
+#@ instagrabber
+msgid "Thumbnail"
+msgstr "Miniatyrbild"
+
+#: includes/admin_pages.class.php:578
+#: includes/list_stream.class.php:183
+#@ instagrabber
+msgid "Link"
+msgstr "Länk"
+
+#: includes/list_stream.class.php:184
+#@ instagrabber
+msgid "Posted"
+msgstr "Publicerad"
+
+#: includes/list_stream.class.php:185
+#@ instagrabber
+msgid "Added"
+msgstr "Tillagd"
+
+#: includes/list_stream.class.php:186
+#@ instagrabber
+msgid "Caption"
+msgstr "Bildtext"
+
+#: includes/list_stream.class.php:187
+#@ instagrabber
+msgid "Tags"
+msgstr "Taggar"
+
+#: includes/list_stream.class.php:188
+#@ instagrabber
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: includes/admin_pages.class.php:494
+#: includes/list_stream.class.php:189
+#@ instagrabber
+msgid "Likes"
+msgstr "Gillningar"
+
+#: includes/list_stream.class.php:190
+#: instagrabber.php:926
+#@ instagrabber
+msgid "Published"
+msgstr "Publicerad"
+
+#: includes/list_streams.class.php:160
+#@ instagrabber
+msgid "Title"
+msgstr "Titel"
+
+#: includes/list_streams.class.php:161
+#@ instagrabber
+msgid "Auto post"
+msgstr "Skapa automatiskt"
+
+#: includes/list_streams.class.php:162
+#@ instagrabber
+msgid "Post type"
+msgstr "Posttyp"
+
+#: includes/list_streams.class.php:164
+#@ instagrabber
+msgid "Auto tags"
+msgstr "Auto tagga"
+
+#: includes/list_streams.class.php:214
+#@ instagrabber
+msgid "Delete"
+msgstr "Radera"
+
+#: includes/list_streams.class.php:215
+#@ instagrabber
+msgid "Update streams"
+msgstr "Uppdatera Strömmar"
+
+#: includes/admin_pages.class.php:371
+#@ instagrabber
+msgid "Instagrabber Update Stream"
+msgstr "Instagrabber Uppdatera Ström"
+
+#: includes/admin_pages.class.php:569
+#@ instagrabber
+msgid "Post format"
+msgstr "Post format"
+
+#: includes/admin_pages.class.php:575
+#@ instagrabber
+msgid "Standard"
+msgstr "Standard"
+
+#: includes/admin_pages.class.php:576
+#@ instagrabber
+msgid "Aside"
+msgstr "Notering"
+
+#: includes/admin_pages.class.php:577
+#@ instagrabber
+msgid "Gallery"
+msgstr "Galleri"
+
+#: includes/admin_pages.class.php:579
+#@ instagrabber
+msgid "Image"
+msgstr "Bild"
+
+#: includes/admin_pages.class.php:580
+#@ instagrabber
+msgid "Quote"
+msgstr "Citat"
+
+#: includes/admin_pages.class.php:581
+#@ instagrabber
+msgid "Status"
+msgstr "Status"
+
+#: includes/admin_pages.class.php:582
+#@ instagrabber
+msgid "Video"
+msgstr "Video"
+
+#: includes/admin_pages.class.php:583
+#@ instagrabber
+msgid "Audio"
+msgstr "Ljud"
+
+#: includes/admin_pages.class.php:842
+#@ instagrabber
+msgid "Show me some love and display a link to the plugin page for instagrabber?"
+msgstr "VIsa mig kärlek genom att länka till pluginsidan?"
+
+#: includes/admin_pages.class.php:38
+#: instagrabber.php:925
+#@ instagrabber
+msgid "Images"
+msgstr "Bilder"
+
+#: includes/admin_pages.class.php:173
+#@ instagrabber
+msgid "search"
+msgstr "sök"
+
+#: includes/admin_pages.class.php:493
+#@ instagrabber
+msgid "User"
+msgstr "Anändare"
+
+#: includes/list_stream.class.php:182
+#@ instagrabber
+msgid "Username"
+msgstr "Användarnamn"
+
+#: includes/admin_pages.class.php:584
+#@ instagrabber
+msgid "Chat"
+msgstr "Chat"
+
+#: includes/admin_pages.class.php:22
+#: includes/admin_pages.class.php:193
+#@ instagrabber
+msgid "Instagrabber help"
+msgstr "Instagrabber Hjälp"
+
+#: includes/admin_pages.class.php:206
+#@ instagrabber
+msgid "Create a app att instagram"
+msgstr "Skapa en applikation på instagram"
+
+#: includes/admin_pages.class.php:215
+#@ instagrabber
+msgid "First go to http://instagram.com/developer/ and klick on manage clients. (You may have to register as a developer, just fill out the form). Klick on \"Register new client\". This will be your application."
+msgstr "Gå till http://instagram.com/developer/ och klicka på \\\"manage clients\\\". (Du kanske måste registrera dig som utvecklare. Fyll i formuläret.) Klicka på \\\"register new client\\\". Det här kommer vara din applikation."
+
+#: includes/admin_pages.class.php:218
+#@ instagrabber
+msgid "Fill out the form like this:"
+msgstr "Fyll i formuläret såhär:"
+
+#: includes/admin_pages.class.php:221
+#@ instagrabber
+msgid "Application Name: name it whatever you want"
+msgstr "Application Name: Döp den till vad du vill"
+
+#: includes/admin_pages.class.php:222
+#@ instagrabber
+msgid "Description: Give it a nice description like \"my app for instagrabber\""
+msgstr "Description: Ge den en beskrivning så att du vet vad det är."
+
+#: includes/admin_pages.class.php:223
+#@ instagrabber
+msgid "Website: You domain (http://myawesomesite.com)"
+msgstr "Website: Din domän (http://mincoolasida.se)"
+
+#: includes/admin_pages.class.php:224
+#@ instagrabber
+msgid "OAuth redirect_uri: your domain + /wp-admin/admin-ajax.php?action=instagrabber_redirect_uri. Like this: http://myawesomesite.com/wp-admin/admin-ajax.php?action=instagrabber_redirect_uri"
+msgstr "OAuth redirect_uri: Din domän + /wp-admin/admin-ajax.php?action=instagrabber_redirect_uri. Till expempel: http://mincoolasida.se/wp-admin/admin-ajax.php?action=instagrabber_redirect_uri"
+
+#: includes/admin_pages.class.php:227
+#@ instagrabber
+msgid "Copy CLIENT ID and CLIENT SECRET and paste them in the settings page for instagrabber."
+msgstr "Kopiera CLIENT ID och CLIENT SECRET Och klistra in dem i inställningarna för instagrabber"
+
+#: includes/admin_pages.class.php:231
+#@ instagrabber
+msgid "The settings page"
+msgstr "Sidan för inställningar"
+
+#: includes/admin_pages.class.php:240
+#@ instagrabber
+msgid "The first two fields is information from your app that you created above. The third setting is a time schedule feature that will get your images and, depending on your stream settings, publish them. Choose a intervall and save. If this is set to never you will have to update the streams manually."
+msgstr "De två första fälten ska innehålla informationen från appen du skapade ovan. Det tredje fältet är schemaläggning om du vill att den ska gå på automatik. Välj en intervall och klicka på spara. Om den här är satt till aldrig kommer du få uppdatera dina strömmar manuellt. "
+
+#: includes/admin_pages.class.php:242
+#@ instagrabber
+msgid "The last option is optional but will help me. Show a after a post that shows a link to this plugin. This is not saved whit the post so you can turn it on and off and the link will dissapear."
+msgstr "Den sista inställningen är inte nödvändig men hjälper mig. Den visar en länk efter inlägget som går till instagrabbers sida. Det sparas inte i inlägget så du kan lugnt sätta på och stänga av den när du vill."
+
+#: includes/admin_pages.class.php:246
+#@ instagrabber
+msgid "How to add a stream"
+msgstr "Hur du Lägger till en ström"
+
+#: includes/admin_pages.class.php:259
+#@ instagrabber
+msgid "Now you will add a stream. This is a stream of images that follows a set of rules. There are two mayor types of streams, user streams and tag streams. A user stream only contains images from one user (the one who activates the stream) and a tag streams contains public images that contains a specific tag. Here is an explanation to the fields on the page:"
+msgstr "Nu ska du lägga till en ström. Det är en ström med bilder som följer vissa regler. Det finns två sorters strömmar, Användarströmmar och taggströmmar. En användarström innehåller bara bilder från en användare och en taggström innehåller bilder som innehåller en specifik tagg. Här är en förklaring för fälten:"
+
+#: includes/admin_pages.class.php:262
+#@ instagrabber
+msgid "Name: the name of the stream"
+msgstr "Namn: Namnet på strömmen"
+
+#: includes/admin_pages.class.php:263
+#, php-format
+#@ instagrabber
+msgid "Placeholder title for post: This will be the title. you can use these placeholders. %user% - the user that uploaded the image, %tag% - the tag for the stream and %caption% - tha caption for the image. So a title can look like this:  \"%user%: %caption%\". But when you publish the image it will look like this: \"ferenyl: I love my job\"."
+msgstr "Titel platshållare för post: det här blir titeln för inläggen. Du kan använda de här platshållarna. %user% - Namnet på användaren som laddat upp bilden, %tag% - Taggen för strömmen och %caption% - Bildtexten. Så en titel kan se ut såhär:  \"%user%: %caption%\". Men när du publicerar ser den ut såhär: \"ferenyl: I love my job\"."
+
+#: includes/admin_pages.class.php:264
+#@ instagrabber
+msgid "Type: There are three different types now, user, tag and likes. The user type will get all images from a user, the tag type will get all images with a tag and likes type will get all images that a user has liked (the user is the one who has activated the stream)."
+msgstr "Typ: Det finns tre olika sorters typer nu. Användare, tagg, och gillade. Användartypen hämtar alla bilder från en användare, tagg typen hämtar alla bilder med en tagg och gillningar hämtar alla bilder som en användare har gillat (användaren som auktoriserar strömmen)"
+
+#: includes/admin_pages.class.php:265
+#@ instagrabber
+msgid "Tag: The tag to use in a tag stream. Or filter a user stream with a tag."
+msgstr "Tagg: Taggen som ska användas i en tagg ström. Eller filtrera en användarström med en tagg"
+
+#: includes/admin_pages.class.php:266
+#@ instagrabber
+msgid "Auto create post: Do you want to publish a image automaticly or do you want to do it manually?"
+msgstr "Autoskapa post: Ska inlägg skapas automatiskt eller vill du göra det manuellt?"
+
+#: includes/admin_pages.class.php:267
+#@ instagrabber
+msgid "Post Type: Do you have more than one post type? choose a post type to save in."
+msgstr "Post typ: Vilken sorts typ av post. (Inlägg är standard)"
+
+#: includes/admin_pages.class.php:268
+#@ instagrabber
+msgid "Post status: You can publish it right away or make it a draft if you want to edit them first."
+msgstr "Post status: Du kan publicera dem på en gång eller så kan du spara dem som utkast först."
+
+#: includes/admin_pages.class.php:269
+#@ instagrabber
+msgid "Post format: if your theme support post formats you can choose one here (Image is ideal)."
+msgstr "Post format: Om ditt tema stödjer post format kan du välja det här. "
+
+#: includes/admin_pages.class.php:270
+#@ instagrabber
+msgid "Taxonomy: Choose a taxonomy if you have more than one."
+msgstr "Taxonomi: Välj en taxonomi  om du har mer än en."
+
+#: includes/admin_pages.class.php:271
+#@ instagrabber
+msgid "Term: Choose a term in that taxonomy"
+msgstr "Term: Välj en kategori."
+
+#: includes/admin_pages.class.php:272
+#@ instagrabber
+msgid "Taxonomy for tags: if you want to tag your image"
+msgstr "Taxonomi för taggar: Välj om du vill tagga dina inlägg"
+
+#: includes/admin_pages.class.php:273
+#@ instagrabber
+msgid "Auto set tag: Convert the image instagram tags to wordpress tags"
+msgstr "Autoskapa taggar: KOnvertera bildens taggar till wordpress taggar"
+
+#: includes/admin_pages.class.php:274
+#@ instagrabber
+msgid "Attachment type: Choose how to attach the image to the post. Make sure your theme supports featured images before choosing that. Both is a great choice"
+msgstr "Infoga bilaga i: Välj hur bilden ska bifogas. Se till att temat stöder utvald bild innan du använder det. Att bifoga i båda är ett utmärkt val. "
+
+#: includes/admin_pages.class.php:276
+#@ instagrabber
+msgid "You will be directed to the stream page when you have clicked on save. You must authorize the stream before you can use it. The stream will be connected with the user who authorizes it."
+msgstr "Du kommer skickas till strömmens sida när du har sparat. Du måste auktorisera strömmen innan du kan använda den. Strömmen kommer vara kopplad till användaren som auktoriserar den"
+
+#: includes/admin_pages.class.php:209
+#: includes/admin_pages.class.php:213
+#@ instagrabber
+msgid "Register a new client"
+msgstr "Registrera en ny klient"
+
+#: includes/admin_pages.class.php:234
+#@ instagrabber
+msgid "Add client id and client secret in instagrabber settings page"
+msgstr "Lägg till client id och client secret på instagrabbers inställnings sida"
+
+#: includes/admin_pages.class.php:238
+#@ instagrabber
+msgid "Authorization button will be displayed after you saved"
+msgstr "Auktoriserings knapp kommer dyka upp när du sparat ."
+
+#: includes/admin_pages.class.php:244
+#@ instagrabber
+msgid "Click on save and a Authorization buton will appear. Click on it to Authorize."
+msgstr "Klicka på spara så ser du en Auktoriserings knapp"
+
+#: includes/admin_pages.class.php:249
+#@ instagrabber
+msgid "Add a new stream"
+msgstr "Lägg till en ny ström"
+
+#: includes/admin_pages.class.php:253
+#@ instagrabber
+msgid "Authorize the stream"
+msgstr "Auktorisera strömmen"
+
+#: includes/admin_pages.class.php:257
+#@ instagrabber
+msgid "Click on update stream to display the images"
+msgstr "Klicka på uppdatera ström för att se bilder"
+
+#: includes/list_stream.class.php:268
+#@ instagrabber
+msgid "Update stream"
+msgstr "Uppdatera ström"
+
+#: includes/list_stream.class.php:89
+#: includes/list_stream.class.php:239
+#: includes/list_stream.class.php:240
+#@ instagrabber
+msgid "Save draft"
+msgstr "Spara utkast"
+
+#: includes/list_stream.class.php:90
+#@ instagrabber
+msgid "Publish Image"
+msgstr "Publicera bild"
+
+#: includes/list_stream.class.php:239
+#: includes/list_stream.class.php:240
+#@ instagrabber
+msgid "Publish directly"
+msgstr "Publicera direkt"
+
+#: includes/list_streams.class.php:165
+#@ instagrabber
+msgid "Created by"
+msgstr "Skapad av"
+
+#: includes/admin_pages.class.php:467
+#@ instagrabber
+msgid "Backup Placeholder title for post"
+msgstr "Extra Platshållare för post titel"
+
+#: includes/admin_pages.class.php:467
+#, php-format
+#@ instagrabber
+msgid "If %caption% placeholder is used by itself."
+msgstr "Om %caption% används ensam"
+
+#: includes/admin_pages.class.php:680
+#@ instagrabber
+msgid "Change stream author"
+msgstr "Ändra ström författare"
+
+#: includes/widgets/published_images.php:13
+#@ instagrabber
+msgid "Display images from a stream"
+msgstr "Visa bilder från en ström"
+
+#: includes/admin_pages.class.php:179
+#@ instagrabber
+msgid "Please update your stream here to avoid this error"
+msgstr "Var snäll och uppdatera din ström för att undvika det här felet"
+
+#: includes/admin_pages.class.php:862
+#: includes/admin_pages.class.php:864
+#@ instagrabber
+msgid "Reset auto get images"
+msgstr "Återställ den automatiska funktionen"
+
+#: includes/admin_pages.class.php:863
+#@ instagrabber
+msgid "Click on the button below to reset the auto get images function. Do this if your stream isn't updating"
+msgstr "Klicka på knappen nedan för att återställa. Gör det om dina strömmar inte uppdateras"
+
+#: includes/admin_pages.class.php:865
+#@ instagrabber
+msgid "Uninstall instagrabber"
+msgstr "Avinstallera Instagrabber"
+
+#: includes/admin_pages.class.php:867
+#@ instagrabber
+msgid "Uninstall Instagrabber"
+msgstr "Avinstallera Instagrabber"
+
+#: includes/admin_pages.class.php:866
+#@ instagrabber
+msgid "This will remove all settings and datbases that this plugin has created."
+msgstr "Det här kommer att radera databaser, strömmar och bilder."
+
+#: includes/list_stream.class.php:107
+#@ instagrabber
+msgid "Save image in media library"
+msgstr "Spara bild i media bibliotek"
+
+#: includes/list_stream.class.php:180
+#@ instagrabber
+msgid "Media ID"
+msgstr "Media ID"
+
+#: includes/list_stream.class.php:247
+#@ instagrabber
+msgid "Save images to media library"
+msgstr "Spara bilder till media biblioteket"
+
+#: includes/admin_pages.class.php:188
+#@ instagrabber
+msgid "Settings page"
+msgstr "Inställnings sida"
+
+#: includes/admin_pages.class.php:188
+#@ instagrabber
+msgid "Add a stream"
+msgstr "Lägg till en ström"
+
+#: includes/admin_pages.class.php:188
+#@ instagrabber
+msgid "Get images automaticly with cron"
+msgstr "Hämta bilder automatiskt med cron"
+
+#: includes/admin_pages.class.php:278
+#@ default
+msgid "Url to cron file:"
+msgstr ""
+
+#: includes/admin_pages.class.php:280
+#@ instagrabber
+msgid "Crontab"
+msgstr "Crontab"
+
+#: includes/admin_pages.class.php:281
+#@ instagrabber
+msgid "You need ssh access  for this one. Go to the next section if you don't have that."
+msgstr "Du behöver tillgång till ssh för den här. Gå till nästa sektion om du inte har det"
+
+#: includes/admin_pages.class.php:283
+#: includes/admin_pages.class.php:334
+#@ instagrabber
+msgid "Important: Remember to set Auto get photos to never first!"
+msgstr ""
+
+#: includes/admin_pages.class.php:285
+#@ instagrabber
+msgid "Write this in the terminal to create a new crontab:"
+msgstr ""
+
+#: includes/admin_pages.class.php:289
+#@ instagrabber
+msgid "The syntax for the cron job looks like this:"
+msgstr ""
+
+#: includes/admin_pages.class.php:293
+#@ instagrabber
+msgid "If i want to run a cron job the fifth minute every hour it looks like this:"
+msgstr ""
+
+#: includes/admin_pages.class.php:297
+#@ instagrabber
+msgid "\"*\" means every."
+msgstr ""
+
+#: includes/admin_pages.class.php:299
+#@ instagrabber
+msgid "But i want to run my cronjob every 5 minutes so i'm using this:"
+msgstr ""
+
+#: includes/admin_pages.class.php:303
+#@ instagrabber
+msgid "So now we know how to setup a cron job. But to run the cron file in instagrabber another thing is needed. A function to run and a url to use. We will be using wget for this. And the url is in the top of this page."
+msgstr ""
+
+#: includes/admin_pages.class.php:305
+#@ instagrabber
+msgid "This is how my cron job would look like:"
+msgstr ""
+
+#: includes/admin_pages.class.php:309
+#@ instagrabber
+msgid "A little breakdown:"
+msgstr ""
+
+#: includes/admin_pages.class.php:324
+#@ instagrabber
+msgid "Save the file and your cron job will run."
+msgstr ""
+
+#: includes/admin_pages.class.php:325
+#@ instagrabber
+msgid "Setup cron with external service."
+msgstr ""
+
+#: includes/admin_pages.class.php:328
+#@ instagrabber
+msgid "Add a new check"
+msgstr ""
+
+#: includes/admin_pages.class.php:332
+#@ instagrabber
+msgid "Fill the form out like this"
+msgstr ""
+
+#: includes/admin_pages.class.php:336
+#@ instagrabber
+msgid "So you don't have access to ssh on a server. Don't worry, you can always use a webservice. Im going to show you how to setup a pingdom check for this."
+msgstr ""
+
+#: includes/admin_pages.class.php:338
+#@ instagrabber
+msgid "First create an account and log in. Klick on Add new check an fill it in like the image."
+msgstr ""
+
+#: includes/admin_pages.class.php:340
+#@ instagrabber
+msgid "Write the cron url that you find on the top of this page in the url field and test it. Now you have a cron job for instagrabber."
+msgstr ""
+
+#: includes/admin_pages.class.php:531
+#@ instagrabber
+msgid "Save images in library"
+msgstr ""
+
+#: includes/admin_pages.class.php:531
+#@ instagrabber
+msgid "Only if Auto create post is set to No"
+msgstr ""
+
+#: includes/admin_pages.class.php:738
+#@ instagrabber
+msgid "Settings"
+msgstr ""
+
+#: includes/admin_pages.class.php:738
+#@ instagrabber
+msgid "Fix or uninstall"
+msgstr ""
+
+#: includes/admin_pages.class.php:817
+#@ instagrabber
+msgid "Allow users to save images wthout creating posts?"
+msgstr ""
+
+#: instagrabber.php:801
+#: instagrabber.php:818
+#@ default
+msgid "That fail'd"
+msgstr ""
+
+#: includes/admin_pages.class.php:133
+#@ instagrabber
+msgid "Instagram username"
+msgstr ""
+
+#: includes/admin_pages.class.php:141
+#@ instagrabber
+msgid "Instagram password"
+msgstr ""
+
+#: includes/admin_pages.class.php:188
+#@ instagrabber
+msgid "Create a app at instagram"
+msgstr ""
+
+#: includes/admin_pages.class.php:477
+#@ instagrabber
+msgid "Allow hashtags in titles"
+msgstr ""
+
+#: includes/admin_pages.class.php:510
+#@ instagrabber
+msgid "Get images posted later than"
+msgstr ""
+
+#: includes/admin_pages.class.php:649
+#: includes/admin_pages.class.php:655
+#@ instagrabber
+msgid "Image link"
+msgstr ""
+
+#: includes/admin_pages.class.php:649
+#@ instagrabber
+msgid "What link should be used for the image?"
+msgstr ""
+
+#: includes/admin_pages.class.php:653
+#@ instagrabber
+msgid "Instagram"
+msgstr ""
+
+#: includes/admin_pages.class.php:654
+#@ instagrabber
+msgid "WordPress post"
+msgstr ""
+
+#: includes/admin_pages.class.php:663
+#@ instagrabber
+msgid "Image width in content"
+msgstr ""
+
+#: includes/admin_pages.class.php:668
+#@ instagrabber
+msgid "Choose a size..."
+msgstr ""
+
+#: includes/admin_pages.class.php:698
+#@ instagrabber
+msgid "Add stream admins"
+msgstr ""
+
+#: includes/admin_pages.class.php:712
+#@ instagrabber
+msgid "No extra administrators"
+msgstr ""
+
+#: includes/admin_pages.class.php:757
+#@ instagrabber
+msgid "You can Use your own instagram application. Se more at the instagrabber help page."
+msgstr ""
+
+#: includes/admin_pages.class.php:767
+#@ instagrabber
+msgid "Authorization type"
+msgstr ""
+
+#: includes/admin_pages.class.php:771
+#@ instagrabber
+msgid "Instagrabber"
+msgstr ""
+
+#: includes/admin_pages.class.php:772
+#@ instagrabber
+msgid "Your custom app"
+msgstr ""
+
+#: includes/admin_pages.class.php:830
+#@ instagrabber
+msgid "The word limit for titles"
+msgstr ""
+
+#: includes/admin_pages.class.php:898
+#@ instagrabber
+msgid "Instagrabber Debugger"
+msgstr ""
+
+#: instagrabber.php:914
+#@ instagrabber
+msgid "Streams"
+msgstr ""
+
+#: instagrabber.php:924
+#@ instagrabber
+msgid "Stream"
+msgstr ""
+
