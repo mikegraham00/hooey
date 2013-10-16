@@ -2,7 +2,7 @@
 <header class="" role="banner">
 
 	<div class="small-12 columns">
-		<h1 class="page-title">Meet the Hooey Team</h1>
+		<h1 class="page-title">Meet the Team</h1>
 		
 		<hr/>
 	</div>

@@ -6310,7 +6310,7 @@ header[role="banner"] {
   -o-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
 }
-.team-block li:hover img {
+.team-block li:hover img, .team-block li:focus img {
   filter: grayscale(0%);
   -webkit-filter: grayscale(0%);
   -moz-filter: grayscale(0%);
@@ -6339,8 +6339,57 @@ h1.entry-title.hooey {
   background-image: url(../img/Hooey-Logo-50.png);
 }
 
+.item {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  float: left;
+}
+
+@media (min-width: 640px) {
+  .item {
+    width: 50%;
+  }
+}
+@media (min-width: 960px) {
+  .item {
+    width: 33%;
+  }
+}
+.dig-item {
+  position: relative;
+}
+.dig-item .item-info {
+  font-size: .8em;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  display: none;
+  position: absolute;
+  padding: 12px;
+  top: 0;
+  left: 0;
+}
+.dig-item .item-info h3 {
+  color: #fff;
+  text-transform: uppercase;
+}
+.dig-item:hover .item-info {
+  display: block;
+}
+.dig-item:focus .item-info {
+  display: block;
+}
+
 /*************VIDEOS****************/
-.video-block li.video-wrap {
+.video-block li {
+  margin: 0 auto;
+}
+.video-block li img {
+  width: 100%;
+}
+.video-block li .video-wrap {
   position: relative;
 }
 .video-block li .play-button {
@@ -6349,22 +6398,29 @@ h1.entry-title.hooey {
   position: absolute;
   top: 0;
   left: 0;
-  color: #fff;
-  line-height: 90%;
-  text-align: center;
+  color: transparent;
+  font: 0 0 sans-serif;
+  background: transparent url("../img/play-button.png") no-repeat center center;
+  opacity: .8;
+}
+@media screen and (max-width: 600px) {
+  .video-block li .play-button {
+    background-size: 50%;
+  }
 }
 .video-block li a {
   display: block;
 }
-.video-block li p {
+.video-block li .caption {
+  width: 100%;
   background-color: #000;
   text-transform: uppercase;
   padding: 6px;
   letter-spacing: .08em;
 }
-.video-block li p a {
+.video-block li .caption a {
   color: #fff;
-  padding-right: 10%;
+  padding-right: 0%;
 }
 
 /******MAPPRESS********/
@@ -6385,10 +6441,6 @@ h1.entry-title.hooey {
   color: #6f6f6f;
   margin-bottom: 24px;
   font-weight: normal;
-}
-
-#searchFormWrap {
-  display: none;
 }
 
 #searchFormContainer .search-toggle {
@@ -6520,6 +6572,26 @@ ul[data-orbit] li:first-child {
   padding: 6px 9px 5px 9px;
   background: #e9e9e9;
   color: #c44900;
+}
+
+/******SIDEBAR*********/
+#sidebar h3 {
+  text-transform: uppercase;
+}
+#sidebar ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+#sidebar ul li {
+  border-bottom: 1px solid #e9e9e9;
+  padding: 8px 0;
+}
+#sidebar ul li:last-child {
+  border-bottom: none;
+}
+#sidebar .date {
+  font-size: .8em;
+  color: #ccc;
 }
 
 /******FOOTER**********/

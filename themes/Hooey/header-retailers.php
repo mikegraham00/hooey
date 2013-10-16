@@ -23,6 +23,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+	<?php //hooey_update_all(); ?>
 
 <div class="contain-to-grid">
 	

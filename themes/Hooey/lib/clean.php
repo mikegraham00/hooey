@@ -133,6 +133,15 @@ function reverie_scripts_and_styles() {
     // add CarouFredSel carousel script
     wp_register_script( 'carouFredsel', get_template_directory_uri() . '/js/caroufredsel/jquery.carouFredSel-6.2.1-packed.js', array( 'jquery' ), '', true);
 
+    // add Masonry script
+    wp_register_script( 'masonry', get_template_directory_uri() . '/js/masonry.min.js', array( 'jquery' ), '', true);
+
+	// add Fancybox script
+    wp_register_script( 'fancybox-js', get_template_directory_uri() . '/js/fancybox/source/jquery.fancybox.pack.js', array( 'jquery' ), '', true);
+    wp_register_script( 'fancybox-media', get_template_directory_uri() . '/js/fancybox/source/helpers/jquery.fancybox-media.js', array( 'jquery' ), '', true);
+   
+    // Fancybox style
+    wp_register_style( 'fancybox-css', get_template_directory_uri() . '/js/fancybox/source/jquery.fancybox.css', array(), '' );
     
     global $is_IE;
     if ($is_IE) {
@@ -158,6 +167,14 @@ function reverie_scripts_and_styles() {
 
     // enqueue CarouFredSel
     wp_enqueue_script ( 'carouFredsel' );
+
+    // enqueue Masonry
+    wp_enqueue_script ( 'masonry' );
+
+    //Fancybox
+    wp_enqueue_style('fancybox-css');
+    wp_enqueue_script('fancybox-js');
+    wp_enqueue_script('fancybox-media');
 
   }
 }

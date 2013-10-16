@@ -3,14 +3,15 @@
 	<?php while (have_posts()) : the_post(); ?>
 <header class="" role="banner">
 	<div class="small-12 columns">
-		<h1 class="page-title"><?php the_title(); ?></h1>
-		<?php reverie_entry_meta(); ?>
+		
 	</div>
 </header>
 
 <!-- Row for main content area -->
 	<div class="small-12 large-8 columns" role="main">
-	
+		
+		<h1 class="page-title"><?php the_title(); ?></h1>
+		<?php reverie_entry_meta(); ?>
 	
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 			

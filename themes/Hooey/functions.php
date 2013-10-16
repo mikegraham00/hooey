@@ -92,8 +92,8 @@ foreach ($sidebars as $sidebar) {
 
 // return entry meta information for posts, used by multiple loops.
 function reverie_entry_meta() {
-	echo '<time class="updated" datetime="'. get_the_time('c') .'" pubdate>'. sprintf(__('Posted on %s at %s.', 'reverie'), get_the_time('l, F jS, Y'), get_the_time()) .'</time>';
-	echo '<p class="byline author">'. __('Written by', 'reverie') .' <a href="'. get_author_posts_url(get_the_author_meta('ID')) .'" rel="author" class="fn">'. get_the_author() .'</a></p>';
+	echo '<p><time class="updated" datetime="'. get_the_time('c') .'" pubdate>'. sprintf(__('Posted on %s', 'reverie'), get_the_time('l, F jS, Y'), get_the_time()) .'</time></p>';
+	//echo '<p class="byline author">'. __('By', 'reverie') .' <a href="'. get_author_posts_url(get_the_author_meta('ID')) .'" rel="author" class="fn">'. get_the_author() .'</a></p>';
 }
 
 // get team name from custom taxonomy
@@ -219,6 +219,21 @@ function kriesi_pagination($pages = '', $range = 2) {  //SUPER KILLER PAGINATION
          echo "</div>\n";
      }
 }
-   
+
+function hooey_update_all() {
+	$args = array(
+    'posts_per_page' => -1,
+    'post_type' => 'retailers'
+    );
+$retailers = new WP_Query( $args );
+
+if ( $retailers->have_posts() ) { 
+    while ( $retailers->have_posts() ) {
+        $retailers->the_post();
+        $id = get_the_ID();
+        wp_update_post(array('ID' => $id));
+    }
+}
+}
 
 ?>

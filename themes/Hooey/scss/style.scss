@@ -442,6 +442,8 @@ textarea:focus, select:focus {
 
 //PAGE LAYOUT
 
+
+
 header[role="banner"] {
 	margin-top: 48px;
 }
@@ -576,7 +578,7 @@ header[role="banner"] {
 		-o-filter: grayscale(100%);
 		-ms-filter: grayscale(100%);
 	}
-	&:hover img{
+	&:hover img, &:focus img{
 		filter: grayscale(0%);
 		-webkit-filter: grayscale(0%);
 		-moz-filter: grayscale(0%);
@@ -609,10 +611,63 @@ h1.entry-title {
 	}
 }
 
+//WE DIG
+
+.item {
+	padding: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	float: left;
+}
+
+@media (min-width: 640px) {
+	.item {
+		width: 50%;
+	}
+}
+
+@media (min-width: 960px) {
+	.item {
+		width: 33%;
+	}
+}
+
+.dig-item {
+	position: relative;
+	.item-info {
+		font-size: .8em;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0,0,0, .8);
+		color: #fff;
+		display: none;
+		position: absolute;
+		padding: 12px;
+		top: 0;
+		left: 0;
+		h3 {
+			color: #fff;
+			text-transform: uppercase;
+		}
+	}
+	&:hover .item-info {
+		display: block;
+	}
+	&:focus .item-info {
+		display: block;
+	}
+}
+
+
+
 /*************VIDEOS****************/
 
 .video-block li {
-	&.video-wrap {
+	margin: 0 auto;
+	img {
+		width: 100%;
+	}
+	.video-wrap {
 		position: relative;
 	}
 	.play-button {
@@ -621,21 +676,31 @@ h1.entry-title {
 		position: absolute;
 		top: 0;
 		left: 0;
-		color: #fff;
-		line-height: 90%;
-		text-align: center;
+		color: transparent;
+		font: 0 0 sans-serif;
+		background: transparent url('../img/play-button.png') no-repeat center center;
+		opacity: .8;
+	}
+	@media screen and (max-width: 600px) {
+		.play-button {
+			background-size: 50%;
+		}
 	}
 	a {
 		display: block;
+
 	}
-	p {
-	background-color: #000;
-	text-transform: uppercase;
-	padding: 6px;
-	letter-spacing: .08em;
+	.caption {
+		//position: absolute;
+		width: 100%;
+		//bottom: 0;
+		background-color: #000;
+		text-transform: uppercase;
+		padding: 6px;
+		letter-spacing: .08em;
 		a {
 			color: #fff;
-			padding-right: 10%;
+			padding-right: 0%;
 
 		}
 		
@@ -665,7 +730,7 @@ h1.entry-title {
 }
 
 #searchFormWrap {
-	display: none;
+	//display: none;
 }
 
 
@@ -810,7 +875,27 @@ color:$primary-color;
 }
 
 
-
+/******SIDEBAR*********/
+#sidebar {
+	h3 {
+		text-transform: uppercase;
+	}
+	ul {
+		list-style-type: none;
+		margin-left: 0;
+		li {
+			border-bottom: 1px solid $secondary-color;
+			padding: 8px 0;
+			&:last-child {
+				border-bottom: none;
+			}
+		}
+	}
+	.date {
+		font-size: .8em;
+		color: #ccc;
+	}
+}
 
 
 

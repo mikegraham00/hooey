@@ -11,7 +11,7 @@ get_header('retailers');
 		<form id="zoomer" class="large-12 columns" style="margin-top: 24px;">
 			<div class="row collapse">
 				<div class="small-10 large-10 columns">
-					<input type="text" id="address" name="address" style="padding: 20px;"/>
+					<input type="text" id="address" name="address" />
 				</div>
 				<div class="small-2 large-2 columns">
 					<button type="submit" id="mapZoom" class="button" value="Search" ><i class="foundicon-search"></i><span>Search</span></button>
@@ -20,11 +20,11 @@ get_header('retailers');
 		</form>
 		<h4 class="large-12 columns">Enter an address, ZIP code, or city to find a HOOey retailer near you.</h4>
 	</div>
-	<div class="search-toggle"><i class="foundicon-search"></i><span class="toggler">FIND A RETAILER</span></div>
+	<div class="search-toggle"><i class="foundicon-search"></i><span class="toggler">HIDE</span></div>
 </div>
 
 <div class="contain-to-grid mapcontainer">
-	<?php echo do_shortcode('[mashup query="post_type=retailers&posts_per_page=-1" width="100%" height="500px" adaptive="true"]'); ?>
+	<?php echo do_shortcode('[mashup query="post_type=retailers&posts_per_page=-1" width="100%" height="500px" adaptive="true" zoom="3"]'); ?>
 </div>
 
 

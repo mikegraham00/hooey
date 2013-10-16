@@ -1,5 +1,12 @@
 <?php get_header(); ?>
 
+<header role="banner">
+<div class="small-12 columns">
+	<h1 class="page-title">Meet the Team</h1>
+	<hr />
+</div>
+</header>
+
 <!-- Row for main content area -->
 	<div class="small-12 large-12 columns" role="main">
 	

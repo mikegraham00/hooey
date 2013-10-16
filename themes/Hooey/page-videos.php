@@ -18,7 +18,7 @@ get_header(); ?>
 
 <!-- Row for main content area -->
 	<div class="large-12 columns" role="main">
-		<ul class="large-block-grid-3 video-block">
+		<ul class="large-block-grid-3 small-block-grid-2 video-block">
 			
 			<?php 
 			$args = array('post_type' => 'videos', 'posts_per_page' => 12, 'paged' => $paged);
@@ -26,13 +26,16 @@ get_header(); ?>
 
 			if($vids->have_posts()) : while($vids->have_posts()) : $vids->the_post(); 
 				$img_array = get_field('poster_image');
-				$img = $img_array['sizes']['medium'];
+				$img = $img_array['sizes']['video-poster-size'];
 			?>
-				<li class="video-wrap ">
+				<li >
+					<div class="video-wrap ">
 
-					<img src="<?php echo $img; ?>">
-					<div class="play-button">Play</div>
-					<p><a href="<?php the_permalink(); ?>" alt="Read: <?php the_title(); ?>" ><?php the_field('video_title'); ?></a></p>
+						<img src="<?php echo $img; ?>">
+						<a href="http://youtube.com/watch?v=<?php the_field('youtube_id'); ?>" class="fancymedia">Play</div>
+					</div>
+					<div class="caption"><a href="http://youtube.com/watch?v=<?php the_field('youtube_id'); ?>" class="fancymedia"><?php the_field('video_title'); ?></a></div>
+					
 				</li>
 				
 				

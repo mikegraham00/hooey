@@ -28,6 +28,22 @@
 
 
 </script>
+
+<?php if ($post->post_name == 'we-dig') : ?>
+<script>
+
+	jQuery('document').ready(function($) {
+		$(".fancybox-media").fancybox({
+			openEffect  : 'none',
+			closeEffect : 'none',
+			helpers : {
+				media : {}
+			}
+		});
+	});
+
+</script>
+<?php endif; ?>
 	
 </body>
 </html>
