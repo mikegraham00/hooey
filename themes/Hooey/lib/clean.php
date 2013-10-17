@@ -169,7 +169,7 @@ function reverie_scripts_and_styles() {
     wp_enqueue_script ( 'carouFredsel' );
 
     // enqueue Masonry
-    wp_enqueue_script ( 'masonry' );
+    //wp_enqueue_script ( 'masonry' );
 
     //Fancybox
     wp_enqueue_style('fancybox-css');

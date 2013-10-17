@@ -22,16 +22,15 @@
 
 		$(document).foundation();
 
-		
 
 	}) (jQuery);
 
 
 </script>
 
-<?php if ($post->post_name == 'we-dig') : ?>
-<script>
 
+<script>
+if (!Modernizr.touch) {
 	jQuery('document').ready(function($) {
 		$(".fancybox-media").fancybox({
 			openEffect  : 'none',
@@ -41,7 +40,22 @@
 			}
 		});
 	});
+};
 
+</script>
+
+<?php if ($post->post_name == 'we-dig' ) : ?>
+<script>
+if (!Modernizr.touch) {
+	jQuery(document).ready(function($) {
+	  $('#ms-container').masonry({
+	   columnWidth: 320,
+	   itemSelector: '.item'
+	  }).imagesLoaded(function() {
+	   $('#ms-container').masonry('reload');
+	  });
+	});
+}
 </script>
 <?php endif; ?>
 	

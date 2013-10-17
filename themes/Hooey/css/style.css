@@ -6381,6 +6381,16 @@ h1.entry-title.hooey {
 .dig-item:focus .item-info {
   display: block;
 }
+.dig-item img {
+  width: 100%;
+}
+
+.touch .dig-item .item-info {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
 /*************VIDEOS****************/
 .video-block li {

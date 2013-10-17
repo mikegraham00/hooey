@@ -32,9 +32,9 @@ get_header(); ?>
 					<div class="video-wrap ">
 
 						<img src="<?php echo $img; ?>">
-						<a href="http://youtube.com/watch?v=<?php the_field('youtube_id'); ?>" class="fancymedia">Play</div>
+						<a href="http://youtube.com/watch?v=<?php the_field('youtube_id'); ?>" class="play-button fancybox-media">Play</a>
 					</div>
-					<div class="caption"><a href="http://youtube.com/watch?v=<?php the_field('youtube_id'); ?>" class="fancymedia"><?php the_field('video_title'); ?></a></div>
+					<div class="caption"><a href="http://youtube.com/watch?v=<?php the_field('youtube_id'); ?>" class="fancybox-media"><?php the_field('video_title'); ?></a></div>
 					
 				</li>
 				
